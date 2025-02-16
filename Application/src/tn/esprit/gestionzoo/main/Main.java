@@ -32,7 +32,6 @@ public class Main {
               System.out.println(grandez.name);
         }
 
-        Aquatic aquaticAnimal = new Aquatic();
         Terrestrial terrestrialAnimal = new Terrestrial();
         Dolphin dolphin = new Dolphin();
         Penguin penguin = new Penguin();
@@ -43,6 +42,10 @@ public class Main {
         System.out.println(penguin);
         dolphin.swim();
         penguin.swim();
+
+        myZoo.addAquaticAnimal(dolphin1);
+        myZoo.addAquaticAnimal(penguin1);
+
 
 
 
